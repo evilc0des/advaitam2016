@@ -1,8 +1,48 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+.pane
+{
+  height: 100vh;
+}
+
+.pane-technical
+{
+  background: url('https://s26.postimg.org/4oqu6ywi1/banner.jpg');
+  background-size: cover;
+}
+.pane-cultural
+{
+  background: url('https://s26.postimg.org/4l15l2zgp/concert_768722_960_720.jpg');
+  background-size: cover;
+  background-position: 33.33% 0%;
+  background-repeat: no-repeat;
+}
+.pane-social
+{
+  background: url('https://s26.postimg.org/jahuv7tah/DSC076381.jpg');
+  background-size: cover;
+  background-position:80.66% 0%;
+  background-repeat: no-repeat;
+}
+
+.overlay
+{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.35);
+  text-align: center;
+}
+
+.tagline
+{
+  font-family: 'LemonMilk', cursive;
+  font-size: 250px;
+  font-stretch: expanded;
+  color: rgba(255, 255, 255, 0.85);
 }
